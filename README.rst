@@ -41,7 +41,7 @@ Configure Ansible with Vagrant:
 ::
 
     # Export ANSIBLE_CONFIG 
-    $ export ANSIBLE_CONFIG=~/work/meetup/ansible-vagrant-demo/playbooks/ansible.cfg
+    $ export ANSIBLE_CONFIG=./playbooks/ansible.cfg
 
     #List all hosts
     $ ansible --list-hosts all
@@ -64,7 +64,7 @@ Configure Ansible with Vagrant:
       vagrant3
 
 
-Excercise 1 - Copy file in all VMs:
+Excersice 1 - Copy file in all VMs:
 -----------------------------------
 
 ::
@@ -86,7 +86,7 @@ Excercise 1 - Copy file in all VMs:
     $ exit
 
 
-Excercise 2 - Provision Nginx on webservers
+Excersice 2 - Provision Nginx on webservers
 -------------------------------------------
 
 ::
@@ -161,7 +161,7 @@ Excercise 2 - Provision Nginx on webservers
         "state": "started"
     }
 
-Excercise 3 - Check if Nginx is running on webservers hosts
+Excersice 3 - Check if Nginx is running on webservers hosts
 -----------------------------------------------------------
 
 ::
@@ -194,7 +194,7 @@ Excercise 3 - Check if Nginx is running on webservers hosts
     </html>
 
 
-Excercise 4 - Stop Nginx on webservers
+Excersice 4 - Stop Nginx on webservers
 --------------------------------------
 ::
 
@@ -205,7 +205,7 @@ Excercise 4 - Stop Nginx on webservers
         "state": "stopped"
     }
 
-Excercise 5 - Check if Nignx is stopped
+Excersice 5 - Check if Nignx is stopped
 ---------------------------------------
 
 ::
@@ -213,7 +213,7 @@ Excercise 5 - Check if Nignx is stopped
     $ curl http://localhost:8080
     curl: (56) Recv failure: Connection reset by peer
 
-Excercise 6 - Destroy all
+Excersice 6 - Destroy all
 -------------------------
 
 ::
