@@ -1,7 +1,7 @@
 Ansible Exercices Over Vagrant
 ===============================
 
-This is a sample project that shows how to create tree VMs with Vagrant and configurate with Ansible.
+This is a sample project that shows how to create three VMs with Vagrant and configurate with Ansible.
 
 Requeriments:
 -------------------
